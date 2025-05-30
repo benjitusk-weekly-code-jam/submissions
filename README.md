@@ -28,7 +28,7 @@ Your program will be executed by running `python main.py` from the terminal.
 
 ### 3. **Project Structure and Repository Rules**
 
-* Submissions must be made via a **pull request to the repository [`benjitusk/weekly-code-jam`](https://github.com/benjitusk/weekly-code-jam)**.
+* Submissions must be made via a **pull request to the repository [`benjitusk-weekly-code-jam/submissions`](https://github.com/benjitusk-weekly-code-jam/submissions)**.
 * Each participant must place their submission under the relevant challenge directory using the following structure:
 
   ```

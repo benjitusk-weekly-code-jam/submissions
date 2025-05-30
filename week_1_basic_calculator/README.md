@@ -66,5 +66,5 @@ The deadline for this challenge is **שבת פרשת נָשֹׂא**. All pull re
 * [ ] Code formatted per official language standards (PEP 8 for Python).
 * [ ] Add `README.md` explaining the solution.
 * [ ] Project structured under `/week_1_basic_calculator/<github_username>/`.
-* [ ] Pull request submitted to [`benjitusk/weekly-code-jam`](https://github.com/benjitusk/weekly-code-jam) before the deadline.
+* [ ] Pull request submitted to [`benjitusk-weekly-code-jam/submissions`](https://github.com/benjitusk-weekly-code-jam/submissions) before the deadline.
 * [ ] No commits after the deadline.

@@ -18,7 +18,7 @@ class Calculator:
         if op is None:
             raise IllegalExpression(self.expression)
 
-        op.execute(self.expression)
+        op(self.expression).calculate()
 
     @classmethod
     def get_op(cls, expr: str) -> type[Operator] | None:
@@ -30,8 +30,12 @@ class Calculator:
             return eligible_ops[0]
 
     def calculate(self):
+        op = self.__class__.get_op(self.expression)  # type: ignore
+        if op is None:
+            raise IllegalExpression(self.expression)
+
+        self.result = op(self.expression).calculate()
         print("Executing calculate method")
-        self.result = 42
 
 
 class IllegalExpression(Exception):

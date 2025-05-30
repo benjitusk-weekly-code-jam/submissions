@@ -3,11 +3,15 @@
 from operators.Operator import Operator
 from operators.Sum import Sum
 from operators.Difference import Difference
+from operators.Divide import Divide
+from operators.Product import Product
+from operators.Modulus import Modulus
 
 
 class Calculator:
 
-    supported_operators: list[type[Operator]] = [Sum, Difference]
+    supported_operators: list[type[Operator]] = [
+        Sum, Difference, Divide, Product, Modulus]
 
     def __init__(self):
         self.expression: str = ""

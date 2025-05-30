@@ -1,11 +1,13 @@
 # Author: Benji Tusk
 
-from operators import Operator, Sum
+from operators.Operator import Operator
+from operators.Sum import Sum
+from operators.Difference import Difference
 
 
 class Calculator:
 
-    supported_operators: list[type[Operator]] = [Sum]
+    supported_operators: list[type[Operator]] = [Sum, Difference]
 
     def __init__(self):
         self.expression: str = ""

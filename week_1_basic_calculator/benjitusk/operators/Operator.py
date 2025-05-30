@@ -10,15 +10,8 @@ class Operator(ABC):
         self._pattern: str
         self.result: float
 
-    @property
-    @abstractmethod
-    def operator_sign(self) -> str:
-        pass
-
-    @property
-    @abstractmethod
-    def operator_name(self) -> str:
-        pass
+    operator_sign: str
+    operator_name: str
 
     @classmethod
     def can_handle_expression(cls, expression: str) -> bool:

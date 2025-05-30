@@ -22,6 +22,7 @@ Your program will be executed by running `python main.py` from the terminal.
 * Inline comments should be used as necessary to clarify implementation logic.
 * The use of `eval()` or any equivalent dynamic code execution function is strictly prohibited in **all languages**. All parsing and computation must be implemented manually.
 * **All code must be formatted** according to the official style guide of the language used. For Python, this means full compliance with [PEP 8](https://peps.python.org/pep-0008/).
+    * I recommend the Visual Studio Code extension [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8).
 * **All input/output must occur via the terminal** (stdin/stdout). Graphical interfaces (GUIs) are not permitted unless explicitly specified.
 * The program must be robust and **handle all invalid or edge-case inputs gracefully** without crashing.
 * Use only the standard library of the language unless otherwise specified. The use of third-party libraries that perform expression parsing, evaluation, or calculation is not allowed. In Python, for example, use of the built-in math module is allowed for operations like logarithms and exponentiation.

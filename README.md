@@ -38,7 +38,7 @@ Your program will be executed by running `python main.py` from the terminal.
   For example, for Week 1:
 
   ```
-  /week_1_basic_calculator/benjitusk/
+  /week_1_basic_calculator/johnDoe/
   ```
 * The directory structure must adhere to the above format to ensure clarity and organization. **Submissions that do not match this structure will be removed**.
 * Submissions must be included in the pull request **before the deadline**. Any commits pushed after the deadline will **disqualify** the submission, even if the pull request was opened on time.

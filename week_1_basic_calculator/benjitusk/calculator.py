@@ -6,12 +6,13 @@ from operators.Difference import Difference
 from operators.Divide import Divide
 from operators.Product import Product
 from operators.Modulus import Modulus
+from operators.Logarithm import Logarithm
 
 
 class Calculator:
 
     supported_operators: list[type[Operator]] = [
-        Sum, Difference, Divide, Product, Modulus]
+        Sum, Difference, Divide, Product, Modulus, Logarithm]
 
     def __init__(self):
         self.expression: str = ""

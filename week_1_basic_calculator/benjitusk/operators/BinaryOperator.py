@@ -12,10 +12,10 @@ class BinaryOperator(Operator):
         self.operator_name: str
         self.operator_sign: str
 
-        self._pattern = self.__build_pattern()
+        self._pattern = self._build_pattern()
         super().__init__(expr)
 
-    def __build_pattern(self):
+    def _build_pattern(self):
         float_match = "[+-]?(?:[0-9]*[.])?[0-9]+"
         operator_match = f"[{self.operator_sign}]"
         whitespaces = "\\s*"

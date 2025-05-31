@@ -54,6 +54,52 @@ Your program will be executed by running `python main.py` from the terminal.
 * The deadline for submission is **שבת קודש** of the specified week.
 * Code review and comparison will begin **מוצאי שבת קודש** once all submissions are locked.
 
+
+## How to Submit Your Solution (Fork & Pull Request)
+
+If you're new to GitHub, follow these steps to submit your solution properly:
+
+### 1. **Fork This Repository**
+
+* Navigate to the main repository: [`benjitusk-weekly-code-jam/submissions`](https://github.com/benjitusk-weekly-code-jam/submissions).
+* Click the **“Fork”** button (top-right corner). This will create a personal copy of the repository under your GitHub account.
+
+### 2. **Clone Your Fork Locally**
+
+Use Git to clone your forked repository to your computer:
+
+```bash
+git clone https://github.com/<your_github_username>/weekly-code-jam.git
+cd weekly-code-jam
+```
+
+Alternatively, you can use Visual Studio Code or any other IDE to clone the repository. If you're unfamiliar with how to do this, a quick search for "how to clone a GitHub repository in [your IDE]" should provide you with the necessary instructions.
+
+### 3. **Create Your Submission Folder**
+
+* Navigate to the current challenge directory (e.g., `week_1_basic_calculator/`)
+
+* Add your code files inside this folder. Unless otherwise specified, your program must start from a file named `main.py`.
+
+### 4. **Commit and Push**
+
+Add, commit, and push your code:
+
+```bash
+git add .
+git commit -m "Add solution for basic_calculator challenge"
+git push origin main
+```
+
+Alternatively, you can use your IDE's built-in Git features to stage, commit, and push your changes. If you're unsure how to do this, a quick search for "how to commit and push in [your IDE]" should provide you with the necessary instructions.
+
+### 5. **Open a Pull Request**
+
+* Go to your fork on GitHub.
+* You should see button labeled **“Contribute”**, click it and then select **“Open pull request.”**
+* Ensure the **base repository** is `benjitusk-weekly-code-jam/submissions` and the **base branch** is `main`.
+* In the PR description, include your GitHub username and a brief description of your approach.
+
 ---
 
 Best of luck to all participants. Submit excellent code and respect the process.

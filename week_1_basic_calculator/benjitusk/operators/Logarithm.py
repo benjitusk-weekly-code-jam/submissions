@@ -8,7 +8,7 @@ class Logarithm(BinaryOperator):
     """
     Represents the binary logarithm operator.
 
-    The Logarighm class inherits from BinaryOperator and implements the logarithm operation.
+    The Logarithm class inherits from BinaryOperator and implements the logarithm operation.
     It parses an expression string, extracts the left-hand side (lhs) and right-hand side (rhs) operands,
     and computes the logarithm of rhs to the base of lhs.
     """

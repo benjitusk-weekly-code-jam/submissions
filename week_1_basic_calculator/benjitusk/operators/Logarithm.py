@@ -14,8 +14,8 @@ class Logarithm(BinaryOperator):
     """
 
     def __init__(self, expr: str):
-        self.operator_name = "mod"
-        self.operator_sign = "%"
+        self.operator_name = "log"
+        self.operator_sign = "log_"
         super().__init__(expr)
 
     def _build_pattern(self):
